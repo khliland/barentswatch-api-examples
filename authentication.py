@@ -14,6 +14,7 @@ def get_token():
         'grant_type': 'client_credentials',
         'client_id': config['client_id'],
         'client_secret': config['client_secret'],
+        'grant_type': 'client_credentials',
         'scope': 'api'
     },
     headers={'content-type': 'application/x-www-form-urlencoded'})
